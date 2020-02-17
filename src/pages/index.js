@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Layout from '../components/Layout';
-import UserCont from './UserCont';
+import Welcome from '../components/Welcome';
  
 const Page = styled.div`
   width: 100%;
@@ -17,7 +17,7 @@ const Page = styled.div`
 const IndexPage = () => (
   <Layout>
     <Page>
-      <UserCont />
+      <Welcome />
     </Page>
   </Layout>
 );

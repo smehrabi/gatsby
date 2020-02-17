@@ -7,6 +7,6 @@
 module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
-     //... other plugins
+    `gatsby-plugin-react-helmet`
   ]
 }
